@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mark Anthony Noche | IT Support & Software QA</title>
+<meta name="description" content="Entry-level IT Support and Software QA graduate from Balayan, Batangas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a href="#top" class="logo">M.N.</a>
+    <nav aria-label="Main">
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Mark Anthony Noche</h1>
+        <p class="role">IT Support and Software QA</p>
+        <p class="lead">Detail-oriented Information Technology graduate with hands-on experience in Windows troubleshooting, hardware and software installation, system configuration, technical support and database management. Looking for an entry-level IT Support role.</p>
+        <div class="cta">
+          <a class="btn primary" href="mailto:anthonydastasnoche@gmail.com">Email me</a>
+          <a class="btn" href="https://github.com/AnthonyNoche-Dev" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+      <div class="photo"><img src="images/me.png" alt="Mark Anthony Noche"></div>
+    </div>
+  </section>
+
+  <section id="experience" class="wrap section">
+    <h2>Experience</h2>
+    <article class="panel">
+      <div class="row"><h3>Website Developer Intern</h3><span class="date">February to May 2026</span></div>
+      <p class="org">RADMedics Corp.</p>
+      <ul>
+        <li>Maintained and continued development of the official RADMedics website.</li>
+        <li>Updated and modified website features based on project requirements.</li>
+        <li>Troubleshot website issues and resolved software-related problems.</li>
+        <li>Maintained website content and functionality to support day-to-day operations.</li>
+        <li>Worked with backend data and database components for maintenance and development.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="projects" class="wrap section">
+    <h2>Projects</h2>
+    <div class="grid">
+      <article class="card">
+        <img src="images/wordcraft.png" alt="WordCraft gameplay" class="thumb" onclick="openProject('wordcraft')">
+        <div class="body">
+          <h3>WordCraft</h3>
+          <p>Android educational game for Grade VI students. Capstone project, STI College Balayan.</p>
+          <ul class="tags"><li>Godot</li><li>SQLite</li><li>Firebase</li><li>QA testing</li></ul>
+          <div class="actions">
+            <button class="btn small" onclick="openProject('wordcraft')">View details</button>
+            <a class="btn small ghost" href="WordCraft.apk" download>Download APK</a>
+          </div>
+          <p class="disclaimer">Disclaimer: WordCraft is for Android devices only. It will not run on PC or iOS.</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="images/python.png" alt="Python game screenshot" class="thumb" onclick="openProject('PythonGame')">
+        <div class="body">
+          <h3>Python Game</h3>
+          <p>A Zelda-style 2D mini game built with Pygame as a school demo.</p>
+          <ul class="tags"><li>Python</li><li>Pygame</li><li>GitHub</li></ul>
+          <div class="actions">
+            <button class="btn small" onclick="openProject('PythonGame')">View details</button>
+            <a class="btn small ghost" href="https://github.com/AnthonyNoche-Dev/Python-Game" target="_blank" rel="noopener noreferrer">Source code</a>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <img src="images/radmedics-logo.png" alt="RADMedics logo" class="thumb logo-thumb" onclick="openProject('radmedics')">
+        <div class="body">
+          <h3>RADMedics website</h3>
+          <p>Official website of an emergency medical services training organization.</p>
+          <ul class="tags"><li>PHP</li><li>Laravel</li><li>Blade</li><li>Databases</li></ul>
+          <div class="actions">
+            <button class="btn small" onclick="openProject('radmedics')">View details</button>
+            <a class="btn small ghost" href="https://www.radmedicsph.com" target="_blank" rel="noopener noreferrer">Visit site</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills" class="wrap section">
+    <h2>Skills</h2>
+    <div class="grid skills">
+      <div class="panel"><h3>IT support</h3><p>Windows 10/11 troubleshooting, hardware and software troubleshooting, installation, system configuration and maintenance, mobile device troubleshooting, technical documentation.</p></div>
+      <div class="panel"><h3>Software QA and testing</h3><p>Functional, application, device and regression testing, test execution, bug identification, debugging, error logging, deployment troubleshooting.</p></div>
+      <div class="panel"><h3>Databases</h3><p>SQL Server, MySQL, SQLite, Firebase, database management, SQL querying.</p></div>
+      <div class="panel"><h3>Languages and tools</h3><p>SQL, Python, JavaScript, C#, Java. Git, GitHub, REST APIs, Visual Studio Code, Android Studio, Godot Engine, Microsoft Excel, Google Sheets.</p></div>
+    </div>
+    <p class="soft">Also: problem-solving, analytical thinking, attention to detail, communication, teamwork, adaptability, time management and organization.</p>
+  </section>
+
+  <section class="wrap section">
+    <h2>Education</h2>
+    <div class="grid two">
+      <div class="panel"><h3>Bachelor of Information Technology</h3><p>STI College Balayan, 2022 to 2026</p></div>
+      <div class="panel"><h3>Humanities and Social Studies</h3><p>STI College Balayan, 2020 to 2022</p></div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="wrap foot">
+    <div>
+      <h2>Let's talk</h2>
+      <p>Open to entry-level IT Support and QA roles. Based in Dao, Balayan, Batangas.</p>
+    </div>
+    <ul class="contact">
+      <li><a href="mailto:anthonydastasnoche@gmail.com">anthonydastasnoche@gmail.com</a></li>
+      <li><a href="tel:+639161819525">+63 916 181 9525</a></li>
+      <li><a href="https://github.com/AnthonyNoche-Dev" target="_blank" rel="noopener noreferrer">github.com/AnthonyNoche-Dev</a></li>
+    </ul>
+  </div>
+</footer>
+
+<div id="project-modal" class="modal" role="dialog" aria-modal="true" aria-label="Project details" hidden>
+  <div class="modal-content">
+    <button class="close-button" aria-label="Close">&times;</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
