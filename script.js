@@ -10,7 +10,7 @@ const projectData = {
     ],
     image: "images/wordcraft.png",
     note: "Disclaimer: WordCraft is for Android devices only. It will not run on PC or iOS.",
-    links: [{ label: "Download APK", href: "WordCraft.apk", download: true }]
+    links: [{ label: "Get it on Google Drive", href: "https://drive.google.com/drive/folders/1FC1rXbIfLI9y4NCQeRuR8KYuqaIjiLIi?usp=sharing" }]
   },
   PythonGame: {
     title: "Python Game",
