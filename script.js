@@ -36,6 +36,17 @@ const projectData = {
     image: "images/radmedics-logo.png",
     imageClass: "detail-logo",
     links: [{ label: "Visit website", href: "https://www.radmedicsph.com", external: true }]
+  },
+  GoldBelow: {
+    title: "Gold Below – Game QA Testing",
+    stack: "Godot Engine, Manual Testing, Bug Reporting",
+    description: [
+      "Tested gameplay mechanics, identified and documented bugs, and shared feedback and feature suggestions to help improve the player experience.",
+      "Contributed to testing and quality assurance for an indie game developed with Godot Engine."
+    ],
+    image: "images/Gold Below.png",
+    imageClass: "detail-logo",
+    links: [{ label: "Visit on Steam", href: "https://store.steampowered.com/app/5449650/Gold_Below/", external: true }]
   }
 };
 
